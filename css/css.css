@@ -1,0 +1,39 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0;}
+
+body {background-color: white;}
+
+.titulo {text-align: center; font-size: 40px; background-color: whitesmoke ;font-family: Georgia, 'Times New Roman', Times, serif;}
+.aboutgigi {background-color: thistle; text-align: center; padding: 2px;font-size: 30px; margin: 2px;}
+.pasarelas { background-color: thistle; text-align: center; padding: 2px; font-size: 30px; margin: 2px;}
+.logros {background-color: thistle; text-align: center; padding: 2px; font-size: 30px; margin: 2px;}
+.contacto {background-color: thistle; text-align: center; padding: 2px; font-size: 30px; margin: 6px;}
+.galeria {background-color: thistle; text-align: center; padding: 2px; font-size: 30px; margin: 2px;}
+.container-fluid {text-align: center;}
+.container {background-color: gainsboro;}
+.footer {background-color: black; color: white; text-align: center; margin: 2px;}
+.ubicacionnav {justify-content: center;}
+.size { width: 100%;}
+.titles {text-align: center;font-family: Titulos;}
+.txt { text-align: center; padding-top: 2%; }
+.centert { align-self: center;}
+.pad [class*="col-"] {padding: 0;}
+.agrandado img:hover {filter: grayscale(100%); transform: scale(1.01)}
+.fotos {display: flex; flex-flow: row; justify-content: center;}
+
+
+.fotos { animation: fadein 5s;}
+
+@keyframes fadein 
+{
+    from { opacity: 0 }
+    to { opacity: 1}
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 960px)
+{ 
+}
+@media screen and (min-width: 0px) and (max-width: 599px)
+{ 
+}
