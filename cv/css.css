@@ -1,0 +1,80 @@
+* { margin: 0; padding: 0;}
+
+
+.titulo {text-align: center; 
+    font-size: 40px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: thistle;
+    padding: 4px;
+    width: 100%;
+    text-align: center;
+    flex-flow: wrap;
+    background-repeat: no-repeat; 
+    box-sizing: border-box;}
+
+body { font-family: 'Roboto', sans-serif;
+      background-color: white;
+      box-sizing: border-box}
+
+section {background-image:"";
+    flex-wrap: wrap; 
+    justify-content: center;
+    display: flex; 
+    font-size: 20PX; 
+    text-align: center;
+    box-sizing: border-box
+}
+
+footer {background-color: black; color: white; box-sizing: border-box}
+
+nav {text-align: center; background-color: gainsboro; padding: 10px;}
+
+nav ul {display: flex; justify-content: center; list-style: none;}
+
+nav ul li { display: block;}
+
+nav ul li a:hover {color: black; background-color: grey;}
+
+nav ul li a {padding: 10PX; text-decoration: none; color: black}
+    
+h1 {text-align: center}
+p {text-align: center;}
+
+
+.info {background-color: white;
+padding: 3px;
+border-bottom: 2px solid;
+max-width: 100%;
+text-align: center;
+flex-flow: wrap;} 
+
+.gigi {font-size: 40px;
+color: white;}
+.cv {font-size: 20px;
+color: black; 
+padding-bottom: 10px}
+.altura {font-size: 20px;
+color: white;}
+.cuadrados {margin: 1px; 
+padding: 1px;
+width: 48%;
+float: left;}
+.botones {padding: 2px;
+    border-bottom: 2PX solid;
+    width: 100%;
+    text-align: center;
+    flex-flow: wrap;
+padding-bottom: 2px;
+padding-top: 2px;}
+
+@media screen and (min-width: 600px) and (max-width: 960px)
+{ 
+    .cuadrados { display: flex;
+    flex-flow: column nowrap; width: 100%;}
+}
+@media screen and (min-width: 0px) and (max-width: 599px)
+{ 
+    .cuadrados { display: flex;
+        flex-flow: column nowrap; width: 100%;}
+}
+    
